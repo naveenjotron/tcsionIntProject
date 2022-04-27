@@ -2,20 +2,20 @@
 <testng-results ignored="5" total="9" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-27T16:39:14 IST" name="Suite" finished-at="2022-04-27T16:39:38 IST" duration-ms="24070">
+  <suite started-at="2022-04-27T16:42:48 IST" name="Suite" finished-at="2022-04-27T16:43:12 IST" duration-ms="23601">
     <groups>
     </groups>
-    <test started-at="2022-04-27T16:39:14 IST" name="Test" finished-at="2022-04-27T16:39:38 IST" duration-ms="24070">
+    <test started-at="2022-04-27T16:42:48 IST" name="Test" finished-at="2022-04-27T16:43:12 IST" duration-ms="23601">
       <class name="tcsionProject.Stage4.S4TestLogin">
-        <test-method is-config="true" signature="onSetup()[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:39:14 IST" name="onSetup" finished-at="2022-04-27T16:39:20 IST" duration-ms="5400" status="PASS">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:42:48 IST" name="onSetup" finished-at="2022-04-27T16:42:54 IST" duration-ms="5391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onSetup -->
-        <test-method signature="loginPage()[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:39:20 IST" name="loginPage" finished-at="2022-04-27T16:39:20 IST" duration-ms="202" status="PASS">
+        <test-method signature="loginPage()[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:42:54 IST" name="loginPage" finished-at="2022-04-27T16:42:54 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:39:20 IST" name="tearDown" finished-at="2022-04-27T16:39:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:42:54 IST" name="tearDown" finished-at="2022-04-27T16:42:54 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validLoginTC004()[pri:4, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:39:20 IST" name="validLoginTC004" finished-at="2022-04-27T16:39:30 IST" duration-ms="10583" status="PASS">
+        <test-method signature="validLoginTC004()[pri:4, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:42:54 IST" name="validLoginTC004" finished-at="2022-04-27T16:43:04 IST" duration-ms="10531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTC004 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:39:30 IST" name="tearDown" finished-at="2022-04-27T16:39:30 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:43:04 IST" name="tearDown" finished-at="2022-04-27T16:43:04 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,17 +41,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:39:32 IST" name="quitBrowser" finished-at="2022-04-27T16:39:38 IST" duration-ms="5786" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:43:06 IST" name="quitBrowser" finished-at="2022-04-27T16:43:12 IST" duration-ms="5850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- tcsionProject.Stage4.S4TestLogin -->
       <class name="tcsionProject.Stage4.S4TestBookingsPage">
-        <test-method signature="dashboardTS002()[pri:5, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d]" started-at="2022-04-27T16:39:30 IST" name="dashboardTS002" finished-at="2022-04-27T16:39:32 IST" duration-ms="1123" status="PASS">
+        <test-method signature="dashboardTS002()[pri:5, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d]" started-at="2022-04-27T16:43:04 IST" name="dashboardTS002" finished-at="2022-04-27T16:43:05 IST" duration-ms="936" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardTS002 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d]" started-at="2022-04-27T16:39:32 IST" name="tearDown" finished-at="2022-04-27T16:39:32 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d]" started-at="2022-04-27T16:43:05 IST" name="tearDown" finished-at="2022-04-27T16:43:05 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,11 +62,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="FliVisaTourTS005()[pri:6, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d]" started-at="2022-04-27T16:39:32 IST" name="FliVisaTourTS005" finished-at="2022-04-27T16:39:32 IST" duration-ms="905" status="PASS">
+        <test-method signature="FliVisaTourTS005()[pri:6, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d]" started-at="2022-04-27T16:43:05 IST" name="FliVisaTourTS005" finished-at="2022-04-27T16:43:06 IST" duration-ms="658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FliVisaTourTS005 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d]" started-at="2022-04-27T16:39:32 IST" name="tearDown" finished-at="2022-04-27T16:39:32 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d]" started-at="2022-04-27T16:43:06 IST" name="tearDown" finished-at="2022-04-27T16:43:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
