@@ -29,8 +29,8 @@ public class S4BookingsPage {
 	}
 	@FindBy(css=".col-lg-8 > div")
 	private WebElement revenueBreakdown;
-	public void setRevenueBreakChart() {
-		revenueBreakdown.isDisplayed();
+	public boolean setRevenueBreakChart() {
+		return revenueBreakdown.isDisplayed();
 	
 	}
 	/*
@@ -82,4 +82,5 @@ public class S4BookingsPage {
     			+ "arguments[0].dispatchEvent(evt);", ManageTours);
 	}
 	
+
 }

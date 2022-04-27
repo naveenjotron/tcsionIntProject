@@ -1,5 +1,7 @@
 package tcsionProject.Stage4;
 
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -20,7 +22,9 @@ public void dashboardTS002() {
 	String overview=objBook.setsalesOverviewText();
 	System.out.println(overview);
 	
-	objBook.setRevenueBreakChart();
+	boolean chart=objBook.setRevenueBreakChart();
+	System.out.println(chart);
+	Assert.assertEquals(chart, true);
 }
 @Test(priority = 6)
 public void FliVisaTourTS005() {
