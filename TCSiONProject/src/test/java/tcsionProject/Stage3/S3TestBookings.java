@@ -69,13 +69,13 @@ public class S3TestBookings extends TestBase {
 			Select bookstat=new Select(driver.findElement(By.xpath("/html/body/div[2]/div[2]/main/div/div[2]"
 					+ "/div/div/div[2]/div/table/tbody/tr[1]/td[11]/select")));
 			bookstat.selectByVisibleText("Confirmed");
-			
-			String ConfirnBC=objbook.setConfirmBookCount();
-			System.out.println("Changed Confirmed Bookings Count: "+ConfirnBC);
+			Thread.sleep(2000);
+			String ConfirmBC=objbook.setConfirmBookCount();
+			System.out.println("Changed Confirmed Bookings Count: "+ConfirmBC);
 		}
 	}
 	@Test(priority = 9,enabled = true)
-	public void RevertChanges() {
+	public void RevertChanges() throws InterruptedException {
 		objbook= new S3BookingsPage(driver);
 		String ConfirmedBC=objbook.setConfirmBookCount();
 		String zero="0";
@@ -85,8 +85,9 @@ public class S3TestBookings extends TestBase {
 		else {
 			objbook.setConfirmBook();
 			System.out.println("Confirmed Bookings Count: "+ ConfirmedBC);
+			Thread.sleep(2000);
 			Select confirmBookstat = new Select(driver.findElement(By.xpath("/html/body/div[2]/div[2]/main/div/div[2]"
-					+ "/div/div/div[2]/div/table/tbody/tr[1]/td[10]/select")));
+					+ "/div/div/div[2]/div/table/tbody/tr[1]/td[11]/select")));
 			confirmBookstat.selectByVisibleText("Pending");
 		}
 		

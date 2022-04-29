@@ -1,83 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="9" passed="4" failed="0" skipped="0">
+<testng-results ignored="9" total="22" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-27T16:42:48 IST" name="Suite" finished-at="2022-04-27T16:43:12 IST" duration-ms="23601">
+  <suite started-at="2022-04-29T14:24:37 IST" name="Suite" finished-at="2022-04-29T14:25:23 IST" duration-ms="45197">
     <groups>
     </groups>
-    <test started-at="2022-04-27T16:42:48 IST" name="Test" finished-at="2022-04-27T16:43:12 IST" duration-ms="23601">
-      <class name="tcsionProject.Stage4.S4TestLogin">
-        <test-method is-config="true" signature="onSetup()[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:42:48 IST" name="onSetup" finished-at="2022-04-27T16:42:54 IST" duration-ms="5391" status="PASS">
+    <test started-at="2022-04-29T14:24:37 IST" name="Test" finished-at="2022-04-29T14:25:23 IST" duration-ms="45197">
+      <class name="tcsionProject.Stage2.S2TestLanding">
+        <test-method signature="verifyhome()[pri:5, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:24:58 IST" name="verifyhome" finished-at="2022-04-29T14:25:01 IST" duration-ms="3028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhome -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:01 IST" name="tearDown" finished-at="2022-04-29T14:25:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyhome status=SUCCESS method=S2TestLanding.verifyhome()[pri:5, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyhotels()[pri:6, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:01 IST" name="verifyhotels" finished-at="2022-04-29T14:25:02 IST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhotels -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:02 IST" name="tearDown" finished-at="2022-04-29T14:25:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyhotels status=SUCCESS method=S2TestLanding.verifyhotels()[pri:6, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyflights()[pri:7, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:03 IST" name="verifyflights" finished-at="2022-04-29T14:25:04 IST" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyflights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:04 IST" name="tearDown" finished-at="2022-04-29T14:25:04 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyflights status=SUCCESS method=S2TestLanding.verifyflights()[pri:7, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifytours()[pri:8, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:04 IST" name="verifytours" finished-at="2022-04-29T14:25:05 IST" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytours -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:05 IST" name="tearDown" finished-at="2022-04-29T14:25:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytours status=SUCCESS method=S2TestLanding.verifytours()[pri:8, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyvisa()[pri:9, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:05 IST" name="verifyvisa" finished-at="2022-04-29T14:25:05 IST" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyvisa -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:05 IST" name="tearDown" finished-at="2022-04-29T14:25:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyvisa status=SUCCESS method=S2TestLanding.verifyvisa()[pri:9, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyblog()[pri:10, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:05 IST" name="verifyblog" finished-at="2022-04-29T14:25:07 IST" duration-ms="1500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyblog -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:07 IST" name="tearDown" finished-at="2022-04-29T14:25:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyblog status=SUCCESS method=S2TestLanding.verifyblog()[pri:10, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyoffers()[pri:11, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:07 IST" name="verifyoffers" finished-at="2022-04-29T14:25:08 IST" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyoffers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:08 IST" name="tearDown" finished-at="2022-04-29T14:25:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyoffers status=SUCCESS method=S2TestLanding.verifyoffers()[pri:11, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifycompany()[pri:12, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:08 IST" name="verifycompany" finished-at="2022-04-29T14:25:09 IST" duration-ms="933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycompany -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:09 IST" name="tearDown" finished-at="2022-04-29T14:25:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycompany status=SUCCESS method=S2TestLanding.verifycompany()[pri:12, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyusd()[pri:13, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:09 IST" name="verifyusd" finished-at="2022-04-29T14:25:11 IST" duration-ms="2097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyusd -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:11 IST" name="tearDown" finished-at="2022-04-29T14:25:11 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyusd status=SUCCESS method=S2TestLanding.verifyusd()[pri:13, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tcsionProject.Stage2.S2TestLanding -->
+      <class name="tcsionProject.Stage2.S2sidebarLinks">
+        <test-method signature="sidebar()[pri:5, instance:tcsionProject.Stage2.S2sidebarLinks@6221a451]" started-at="2022-04-29T14:24:55 IST" name="sidebar" finished-at="2022-04-29T14:24:58 IST" duration-ms="2960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sidebar -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2sidebarLinks@6221a451]" started-at="2022-04-29T14:24:58 IST" name="tearDown" finished-at="2022-04-29T14:24:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sidebar status=SUCCESS method=S2sidebarLinks.sidebar()[pri:5, instance:tcsionProject.Stage2.S2sidebarLinks@6221a451] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tcsionProject.Stage2.S2sidebarLinks -->
+      <class name="tcsionProject.Stage2.S2TestSearch">
+        <test-method signature="search()[pri:14, instance:tcsionProject.Stage2.S2TestSearch@3012646b]" started-at="2022-04-29T14:25:11 IST" name="search" finished-at="2022-04-29T14:25:17 IST" duration-ms="5455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestSearch@3012646b]" started-at="2022-04-29T14:25:17 IST" name="tearDown" finished-at="2022-04-29T14:25:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=S2TestSearch.search()[pri:14, instance:tcsionProject.Stage2.S2TestSearch@3012646b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tcsionProject.Stage2.S2TestSearch -->
+      <class name="tcsionProject.Stage2.S2TestLogin">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:tcsionProject.Stage2.S2TestLogin@576d5deb]" started-at="2022-04-29T14:24:37 IST" name="onSetup" finished-at="2022-04-29T14:24:44 IST" duration-ms="6395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onSetup -->
-        <test-method signature="loginPage()[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:42:54 IST" name="loginPage" finished-at="2022-04-27T16:42:54 IST" duration-ms="148" status="PASS">
+        <test-method signature="loginPage()[pri:0, instance:tcsionProject.Stage2.S2TestLogin@576d5deb]" started-at="2022-04-29T14:24:44 IST" name="loginPage" finished-at="2022-04-29T14:24:47 IST" duration-ms="3449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:42:54 IST" name="tearDown" finished-at="2022-04-27T16:42:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLogin@576d5deb]" started-at="2022-04-29T14:24:47 IST" name="tearDown" finished-at="2022-04-29T14:24:47 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginPage status=SUCCESS method=S4TestLogin.loginPage()[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b] output={null}]]]>
+                <![CDATA[[TestResult name=loginPage status=SUCCESS method=S2TestLogin.loginPage()[pri:0, instance:tcsionProject.Stage2.S2TestLogin@576d5deb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validLoginTC004()[pri:4, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:42:54 IST" name="validLoginTC004" finished-at="2022-04-27T16:43:04 IST" duration-ms="10531" status="PASS">
+        <test-method signature="validLoginTC004()[pri:4, instance:tcsionProject.Stage2.S2TestLogin@576d5deb]" started-at="2022-04-29T14:24:47 IST" name="validLoginTC004" finished-at="2022-04-29T14:24:55 IST" duration-ms="8023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTC004 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:43:04 IST" name="tearDown" finished-at="2022-04-27T16:43:04 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLogin@576d5deb]" started-at="2022-04-29T14:24:55 IST" name="tearDown" finished-at="2022-04-29T14:24:55 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validLoginTC004 status=SUCCESS method=S4TestLogin.validLoginTC004()[pri:4, instance:tcsionProject.Stage4.S4TestLogin@2d52216b] output={null}]]]>
+                <![CDATA[[TestResult name=validLoginTC004 status=SUCCESS method=S2TestLogin.validLoginTC004()[pri:4, instance:tcsionProject.Stage2.S2TestLogin@576d5deb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tcsionProject.Stage4.S4TestLogin@2d52216b]" started-at="2022-04-27T16:43:06 IST" name="quitBrowser" finished-at="2022-04-27T16:43:12 IST" duration-ms="5850" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tcsionProject.Stage2.S2TestLogin@576d5deb]" started-at="2022-04-29T14:25:17 IST" name="quitBrowser" finished-at="2022-04-29T14:25:23 IST" duration-ms="6069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- tcsionProject.Stage4.S4TestLogin -->
-      <class name="tcsionProject.Stage4.S4TestBookingsPage">
-        <test-method signature="dashboardTS002()[pri:5, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d]" started-at="2022-04-27T16:43:04 IST" name="dashboardTS002" finished-at="2022-04-27T16:43:05 IST" duration-ms="936" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dashboardTS002 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d]" started-at="2022-04-27T16:43:05 IST" name="tearDown" finished-at="2022-04-27T16:43:05 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=dashboardTS002 status=SUCCESS method=S4TestBookingsPage.dashboardTS002()[pri:5, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="FliVisaTourTS005()[pri:6, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d]" started-at="2022-04-27T16:43:05 IST" name="FliVisaTourTS005" finished-at="2022-04-27T16:43:06 IST" duration-ms="658" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FliVisaTourTS005 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d]" started-at="2022-04-27T16:43:06 IST" name="tearDown" finished-at="2022-04-27T16:43:06 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=FliVisaTourTS005 status=SUCCESS method=S4TestBookingsPage.FliVisaTourTS005()[pri:6, instance:tcsionProject.Stage4.S4TestBookingsPage@60bd273d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tcsionProject.Stage4.S4TestBookingsPage -->
+      </class> <!-- tcsionProject.Stage2.S2TestLogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

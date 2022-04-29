@@ -2,8 +2,13 @@ package tcsionProject.Stage1;
 
 import java.io.IOException;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import net.phptravels.Constants.AutomationConstants;
 import net.phptravels.Stage1.S1MyProfilePage;
 import tcsionProject.Scripts.ExcelUtility;
 import tcsionProject.Scripts.TestBase;
@@ -25,19 +30,26 @@ public class S1TestMyProfile extends TestBase {
 		
 //		objprof.setMyProfileBtn();
 		
+		objprof.setState(state);
+		objprof.setCity(city);
+		Thread.sleep(1000);
+		objprof.setZip(zip);
+		Thread.sleep(1000);
 		objprof.setAdres1(address1);
 		objprof.setAdres2(address2);
-		objprof.setZip(zip);
-		objprof.setCity(city);
-		objprof.setState(state);
 		objprof.setUpdProf();
 		
 	}
 	
 	@Test(priority=8)
-	public void Logout() {
+	public void Logout() throws InterruptedException {
 		objprof= new S1MyProfilePage(driver);
 		objprof.setLogoutBtn();
+		Thread.sleep(3000);
+	    String ActualTittle = driver.getTitle();
+	    System.out.println(ActualTittle);
+	    String expTittle = AutomationConstants.LOGINPAGETITLE;
+	    Assert.assertEquals(ActualTittle, expTittle);
 	}
 
 }

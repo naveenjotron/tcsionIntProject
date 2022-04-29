@@ -30,14 +30,12 @@ public class S1BookingsPage {
  public void setVewVouchrBtn() {
 	 VewVouchrBtn.click();
  }
- public void setVouchrConfirm() {
-	 ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
-	 driver.switchTo().window(tabs.get(1));
-	 String Customer=VouchrConfirm.getText();
-	 System.out.println(Customer);
-	 boolean c=Customer.contains("user@phptravels.com");
-	 System.out.println("***Is customer data contains email id :"+ c);
-//	 return new S1AddFundPage(driver);
+ public String setVouchrConfirm() throws InterruptedException {
+	 
+	 VouchrConfirm.getText();
+	 
+	return setVouchrConfirm();
+
  }
 
 }

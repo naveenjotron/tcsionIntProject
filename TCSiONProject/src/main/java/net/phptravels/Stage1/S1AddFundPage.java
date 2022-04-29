@@ -1,5 +1,6 @@
 package net.phptravels.Stage1;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -39,11 +40,15 @@ public S1AddFundPage(WebDriver driver){
 	public void setPayNowBtn() {
 		PayNowBtn.click();
 	}
+	@FindBy(css="#Layer_1")
+	private WebElement backToInvce;
 	public void setCancelPay() throws InterruptedException {
 		Thread.sleep(3000);
-		driver.navigate().back();
+		backToInvce.click();
+		driver.findElement(By.cssSelector("a[class='yes']")).click();
+//		driver.navigate().back();
 		Thread.sleep(2000);
-		driver.navigate().back();
+//		driver.navigate().back();
 //		return new S1MyProfilePage(driver);
 	}
 }

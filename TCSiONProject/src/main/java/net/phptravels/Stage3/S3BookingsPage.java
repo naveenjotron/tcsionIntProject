@@ -53,7 +53,7 @@ public class S3BookingsPage {
 		return ConfirmedBook.getText();
 	}
 	public void setConfirmBook() {
-		ConfirmedBook.sendKeys(Keys.RETURN);;
+		ConfirmedBook.click();
 	}
 	
 	@FindBy(css="li.nav-item:nth-child(1) > a")

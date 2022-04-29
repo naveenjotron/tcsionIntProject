@@ -38,6 +38,7 @@ public class S1LoginPage {
  }
  public void setSwitchTab() {
 	 ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
+	 driver.close();
 	 driver.switchTo().window(tabs.get(1));
  }
 //Set user name in textbox

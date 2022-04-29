@@ -3,23 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tcsionProject.Stage4.S4TestLogin">
+      <class name="tcsionProject.Stage3.S3TestBookings">
         <methods>
-          <include name="validLoginTC004"/>
           <include name="tearDown"/>
           <include name="quitBrowser"/>
           <include name="onSetup"/>
+          <include name="RevertChanges"/>
         </methods>
-      </class> <!-- tcsionProject.Stage4.S4TestLogin -->
-      <class name="tcsionProject.Stage4.S4TestBookingsPage">
-        <methods>
-          <include name="quitBrowser"/>
-          <include name="tearDown"/>
-          <include name="onSetup"/>
-          <include name="FliVisaTourTS005"/>
-          <include name="dashboardTS002"/>
-        </methods>
-      </class> <!-- tcsionProject.Stage4.S4TestBookingsPage -->
+      </class> <!-- tcsionProject.Stage3.S3TestBookings -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

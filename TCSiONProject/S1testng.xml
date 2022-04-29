@@ -3,10 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="tcsionProject.Stage1.TestLogin"/>
-      <class name="tcsionProject.Stage1.TestBookings"/>
-      <class name="tcsionProject.Stage1.TestAddFund"/>
-      <class name="tcsionProject.Stage1.TestMyProfile"/>
+      <class name="tcsionProject.Stage1.S1TestLogin"/>
+      <class name="tcsionProject.Stage1.S1TestBookings"/>
+      <class name="tcsionProject.Stage1.S1TestAddFund"/>
+      <class name="tcsionProject.Stage1.S1TestMyProfile"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

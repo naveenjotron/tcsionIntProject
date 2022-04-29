@@ -6,6 +6,7 @@
       <class name="tcsionProject.Stage2.S2TestLogin"/>
       <class name="tcsionProject.Stage2.S2sidebarLinks"/>
       <class name="tcsionProject.Stage2.S2TestLanding"/>
+      <class name="tcsionProject.Stage2.S2TestSearch"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

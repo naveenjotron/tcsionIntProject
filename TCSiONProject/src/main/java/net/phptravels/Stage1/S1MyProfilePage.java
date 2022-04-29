@@ -1,13 +1,18 @@
 package net.phptravels.Stage1;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class S1MyProfilePage {
 	WebDriver driver;
+//	WebDriverWait wait = new WebDriverWait(driver, 5);
+//	JavascriptExecutor js = ((JavascriptExecutor) driver);
 	
 	public S1MyProfilePage(WebDriver driver){
 		this.driver = driver;
@@ -38,6 +43,11 @@ public class S1MyProfilePage {
 	@FindBy(css="input[name='zip']")
 	private WebElement Zip;
 	public void setZip(String strZip) {
+		WebDriverWait wait = new WebDriverWait(driver, 5);
+		JavascriptExecutor js = ((JavascriptExecutor) driver);
+		js.executeScript("arguments[0].scrollIntoView(true);", Zip);
+		
+		wait.until(ExpectedConditions.visibilityOf(Zip));
 		Zip.clear();
 		Zip.sendKeys(strZip);
 	}
@@ -45,6 +55,9 @@ public class S1MyProfilePage {
 	@FindBy(css="input[name='address1']")
 	private WebElement Adres1;
 	public void setAdres1(String strAdres1) {
+		WebDriverWait wait = new WebDriverWait(driver, 5);
+		JavascriptExecutor js = ((JavascriptExecutor) driver);
+		js.executeScript("arguments[0].scrollIntoView(true);", Adres1);
 		Adres1.clear();
 		Adres1.sendKeys(strAdres1);
 	}
