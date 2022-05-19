@@ -1,222 +1,349 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="22" passed="13" failed="0" skipped="0">
+<testng-results ignored="5" total="10" passed="1" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-29T14:24:37 IST" name="Suite" finished-at="2022-04-29T14:25:23 IST" duration-ms="45197">
+  <suite started-at="2022-05-18T20:48:13 IST" name="Suite" finished-at="2022-05-18T20:48:28 IST" duration-ms="15539">
     <groups>
     </groups>
-    <test started-at="2022-04-29T14:24:37 IST" name="Test" finished-at="2022-04-29T14:25:23 IST" duration-ms="45197">
-      <class name="tcsionProject.Stage2.S2TestLanding">
-        <test-method signature="verifyhome()[pri:5, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:24:58 IST" name="verifyhome" finished-at="2022-04-29T14:25:01 IST" duration-ms="3028" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyhome -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:01 IST" name="tearDown" finished-at="2022-04-29T14:25:01 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyhome status=SUCCESS method=S2TestLanding.verifyhome()[pri:5, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyhotels()[pri:6, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:01 IST" name="verifyhotels" finished-at="2022-04-29T14:25:02 IST" duration-ms="1073" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyhotels -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:02 IST" name="tearDown" finished-at="2022-04-29T14:25:03 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyhotels status=SUCCESS method=S2TestLanding.verifyhotels()[pri:6, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyflights()[pri:7, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:03 IST" name="verifyflights" finished-at="2022-04-29T14:25:04 IST" duration-ms="1011" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyflights -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:04 IST" name="tearDown" finished-at="2022-04-29T14:25:04 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyflights status=SUCCESS method=S2TestLanding.verifyflights()[pri:7, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifytours()[pri:8, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:04 IST" name="verifytours" finished-at="2022-04-29T14:25:05 IST" duration-ms="1029" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifytours -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:05 IST" name="tearDown" finished-at="2022-04-29T14:25:05 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifytours status=SUCCESS method=S2TestLanding.verifytours()[pri:8, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyvisa()[pri:9, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:05 IST" name="verifyvisa" finished-at="2022-04-29T14:25:05 IST" duration-ms="896" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyvisa -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:05 IST" name="tearDown" finished-at="2022-04-29T14:25:05 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyvisa status=SUCCESS method=S2TestLanding.verifyvisa()[pri:9, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyblog()[pri:10, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:05 IST" name="verifyblog" finished-at="2022-04-29T14:25:07 IST" duration-ms="1500" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyblog -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:07 IST" name="tearDown" finished-at="2022-04-29T14:25:07 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyblog status=SUCCESS method=S2TestLanding.verifyblog()[pri:10, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyoffers()[pri:11, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:07 IST" name="verifyoffers" finished-at="2022-04-29T14:25:08 IST" duration-ms="1163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyoffers -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:08 IST" name="tearDown" finished-at="2022-04-29T14:25:08 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyoffers status=SUCCESS method=S2TestLanding.verifyoffers()[pri:11, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifycompany()[pri:12, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:08 IST" name="verifycompany" finished-at="2022-04-29T14:25:09 IST" duration-ms="933" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifycompany -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:09 IST" name="tearDown" finished-at="2022-04-29T14:25:09 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifycompany status=SUCCESS method=S2TestLanding.verifycompany()[pri:12, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyusd()[pri:13, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:09 IST" name="verifyusd" finished-at="2022-04-29T14:25:11 IST" duration-ms="2097" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyusd -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLanding@52719fb6]" started-at="2022-04-29T14:25:11 IST" name="tearDown" finished-at="2022-04-29T14:25:11 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyusd status=SUCCESS method=S2TestLanding.verifyusd()[pri:13, instance:tcsionProject.Stage2.S2TestLanding@52719fb6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tcsionProject.Stage2.S2TestLanding -->
-      <class name="tcsionProject.Stage2.S2sidebarLinks">
-        <test-method signature="sidebar()[pri:5, instance:tcsionProject.Stage2.S2sidebarLinks@6221a451]" started-at="2022-04-29T14:24:55 IST" name="sidebar" finished-at="2022-04-29T14:24:58 IST" duration-ms="2960" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sidebar -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2sidebarLinks@6221a451]" started-at="2022-04-29T14:24:58 IST" name="tearDown" finished-at="2022-04-29T14:24:58 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=sidebar status=SUCCESS method=S2sidebarLinks.sidebar()[pri:5, instance:tcsionProject.Stage2.S2sidebarLinks@6221a451] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tcsionProject.Stage2.S2sidebarLinks -->
-      <class name="tcsionProject.Stage2.S2TestSearch">
-        <test-method signature="search()[pri:14, instance:tcsionProject.Stage2.S2TestSearch@3012646b]" started-at="2022-04-29T14:25:11 IST" name="search" finished-at="2022-04-29T14:25:17 IST" duration-ms="5455" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestSearch@3012646b]" started-at="2022-04-29T14:25:17 IST" name="tearDown" finished-at="2022-04-29T14:25:17 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=search status=SUCCESS method=S2TestSearch.search()[pri:14, instance:tcsionProject.Stage2.S2TestSearch@3012646b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tcsionProject.Stage2.S2TestSearch -->
-      <class name="tcsionProject.Stage2.S2TestLogin">
-        <test-method is-config="true" signature="onSetup()[pri:0, instance:tcsionProject.Stage2.S2TestLogin@576d5deb]" started-at="2022-04-29T14:24:37 IST" name="onSetup" finished-at="2022-04-29T14:24:44 IST" duration-ms="6395" status="PASS">
+    <test started-at="2022-05-18T20:48:13 IST" name="Test" finished-at="2022-05-18T20:48:28 IST" duration-ms="15539">
+      <class name="tcsionProject.Stage4.S4TestLogin">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:tcsionProject.Stage4.S4TestLogin@3527942a]" started-at="2022-05-18T20:48:13 IST" name="onSetup" finished-at="2022-05-18T20:48:19 IST" duration-ms="5935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onSetup -->
-        <test-method signature="loginPage()[pri:0, instance:tcsionProject.Stage2.S2TestLogin@576d5deb]" started-at="2022-04-29T14:24:44 IST" name="loginPage" finished-at="2022-04-29T14:24:47 IST" duration-ms="3449" status="PASS">
+        <test-method signature="loginPage()[pri:0, instance:tcsionProject.Stage4.S4TestLogin@3527942a]" started-at="2022-05-18T20:48:19 IST" name="loginPage" finished-at="2022-05-18T20:48:19 IST" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLogin@576d5deb]" started-at="2022-04-29T14:24:47 IST" name="tearDown" finished-at="2022-04-29T14:24:47 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginPage status=SUCCESS method=S2TestLogin.loginPage()[pri:0, instance:tcsionProject.Stage2.S2TestLogin@576d5deb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="validLoginTC004()[pri:4, instance:tcsionProject.Stage2.S2TestLogin@576d5deb]" started-at="2022-04-29T14:24:47 IST" name="validLoginTC004" finished-at="2022-04-29T14:24:55 IST" duration-ms="8023" status="PASS">
+        <test-method signature="validLoginTC004()[pri:4, instance:tcsionProject.Stage4.S4TestLogin@3527942a]" started-at="2022-05-18T20:48:19 IST" name="validLoginTC004" finished-at="2022-05-18T20:48:23 IST" duration-ms="3606" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MDVV23RL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Naveen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53446}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0106c38e197172746fe2d4c47277fa7d
+*** Element info: {Using=css selector, value=.form-signin > div:nth-child(1) > label:nth-child(1) > input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MDVV23RL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Naveen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53446}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0106c38e197172746fe2d4c47277fa7d
+*** Element info: {Using=css selector, value=.form-signin > div:nth-child(1) > label:nth-child(1) > input}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+at net.phptravels.Stage4.S4LoginPage.setUserName(S4LoginPage.java:43)
+at tcsionProject.Stage4.S4TestLogin.validLoginTC004(S4TestLogin.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTC004 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tcsionProject.Stage2.S2TestLogin@576d5deb]" started-at="2022-04-29T14:24:55 IST" name="tearDown" finished-at="2022-04-29T14:24:55 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validLoginTC004 status=SUCCESS method=S2TestLogin.validLoginTC004()[pri:4, instance:tcsionProject.Stage2.S2TestLogin@576d5deb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tcsionProject.Stage2.S2TestLogin@576d5deb]" started-at="2022-04-29T14:25:17 IST" name="quitBrowser" finished-at="2022-04-29T14:25:23 IST" duration-ms="6069" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tcsionProject.Stage4.S4TestLogin@3527942a]" started-at="2022-05-18T20:48:23 IST" name="quitBrowser" finished-at="2022-05-18T20:48:28 IST" duration-ms="5611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- tcsionProject.Stage2.S2TestLogin -->
+      </class> <!-- tcsionProject.Stage4.S4TestLogin -->
+      <class name="tcsionProject.Stage4.S4TestBookingsPage">
+        <test-method signature="dashboardTS002()[pri:5, instance:tcsionProject.Stage4.S4TestBookingsPage@5e600dd5]" started-at="2022-05-18T20:48:23 IST" name="dashboardTS002" finished-at="2022-05-18T20:48:23 IST" duration-ms="26" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MDVV23RL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Naveen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53446}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0106c38e197172746fe2d4c47277fa7d
+*** Element info: {Using=css selector, value=a.loadeffect:nth-child(6)}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MDVV23RL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Naveen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53446}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0106c38e197172746fe2d4c47277fa7d
+*** Element info: {Using=css selector, value=a.loadeffect:nth-child(6)}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at net.phptravels.Stage4.S4BookingsPage.setdashboardBtn(S4BookingsPage.java:22)
+at tcsionProject.Stage4.S4TestBookingsPage.dashboardTS002(S4TestBookingsPage.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTS002 -->
+        <test-method signature="FliVisaTourTS005()[pri:6, instance:tcsionProject.Stage4.S4TestBookingsPage@5e600dd5]" started-at="2022-05-18T20:48:23 IST" name="FliVisaTourTS005" finished-at="2022-05-18T20:48:23 IST" duration-ms="9" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MDVV23RL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Naveen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53446}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0106c38e197172746fe2d4c47277fa7d
+*** Element info: {Using=css selector, value=a.nav-link:nth-child(12) > div:nth-child(1) > i}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MDVV23RL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Naveen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53446}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0106c38e197172746fe2d4c47277fa7d
+*** Element info: {Using=css selector, value=a.nav-link:nth-child(12) > div:nth-child(1) > i}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+at net.phptravels.Stage4.S4BookingsPage.setToursManin(S4BookingsPage.java:66)
+at tcsionProject.Stage4.S4TestBookingsPage.FliVisaTourTS005(S4TestBookingsPage.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FliVisaTourTS005 -->
+        <test-method signature="BookingsTS004()[pri:7, instance:tcsionProject.Stage4.S4TestBookingsPage@5e600dd5]" started-at="2022-05-18T20:48:23 IST" name="BookingsTS004" finished-at="2022-05-18T20:48:23 IST" duration-ms="24" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MDVV23RL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Naveen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53446}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0106c38e197172746fe2d4c47277fa7d
+*** Element info: {Using=css selector, value=a.loadeffect:nth-child(15)}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MDVV23RL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Naveen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53446}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0106c38e197172746fe2d4c47277fa7d
+*** Element info: {Using=css selector, value=a.loadeffect:nth-child(15)}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+at net.phptravels.Stage4.S4BookingsPage.setBookingsBtn(S4BookingsPage.java:56)
+at tcsionProject.Stage4.S4TestBookingsPage.BookingsTS004(S4TestBookingsPage.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookingsTS004 -->
+      </class> <!-- tcsionProject.Stage4.S4TestBookingsPage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

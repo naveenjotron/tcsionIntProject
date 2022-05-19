@@ -30,11 +30,9 @@ public class S1BookingsPage {
  public void setVewVouchrBtn() {
 	 VewVouchrBtn.click();
  }
- public String setVouchrConfirm() throws InterruptedException {
+ public String setVouchrConfirm() {
 	 
-	 VouchrConfirm.getText();
-	 
-	return setVouchrConfirm();
+	 return VouchrConfirm.getText();
 
  }
 

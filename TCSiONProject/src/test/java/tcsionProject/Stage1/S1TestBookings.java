@@ -30,6 +30,7 @@ public class S1TestBookings extends TestBase {
 		 System.out.println(Customer);
 		 boolean c=Customer.contains("user@phptravels.com");
 		 System.out.println("***Is customer data contains email id :"+ c);
+		 driver.close();
 		 driver.switchTo().window(tabs.get(0));
 //		objbookings.setVouchrConfirm();
 		 	

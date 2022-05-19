@@ -16,6 +16,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -78,7 +79,7 @@ public void onSetup() {
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 }
 
-    @AfterMethod
+    @AfterMethod(enabled = false)
     public void tearDown(ITestResult iTestResult) throws IOException {
         if (iTestResult.FAILURE == iTestResult.getStatus()) {
             takeScreenshot(iTestResult.getName());
@@ -108,7 +109,8 @@ public void onSetup() {
     @AfterTest
     public void quitBrowser() throws IOException, InterruptedException {
     	Thread.sleep(5000);
-        driver.quit();
+    	if(driver!=null) {
+        driver.quit();}
     }
 
 }

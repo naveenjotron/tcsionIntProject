@@ -6,6 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import net.phptravels.Constants.AutomationConstants;
@@ -51,5 +54,11 @@ public class S1TestMyProfile extends TestBase {
 	    String expTittle = AutomationConstants.LOGINPAGETITLE;
 	    Assert.assertEquals(ActualTittle, expTittle);
 	}
+	
+//	@AfterClass
+//	public void endTest() throws InterruptedException {
+//		Thread.sleep(3000);
+//		driver.close();
+//	}
 
 }

@@ -24,5 +24,9 @@ public class S2TestSearch extends TestBase {
 		Assert.assertEquals(actTitle, expTitle);
 		
 	}
-
+//	@Test(priority = 15)
+//	public void endTest() throws InterruptedException {
+//		Thread.sleep(3000);
+//		driver.close();
+//	}
 }

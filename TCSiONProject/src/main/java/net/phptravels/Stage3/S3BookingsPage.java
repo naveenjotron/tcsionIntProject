@@ -1,10 +1,13 @@
 package net.phptravels.Stage3;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class S3BookingsPage {
 	WebDriver driver;
@@ -17,7 +20,9 @@ public class S3BookingsPage {
 	@FindBy(css="li.nav-item:nth-child(2) > a")
 	private WebElement bookingsBtn;
 	public void setBookingsBtn() {
-		bookingsBtn.click();
+		WebDriverWait wait= new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.elementToBeClickable(bookingsBtn));
+		bookingsBtn.sendKeys(Keys.ENTER);
 	}
 	
 	@FindBy(xpath="/html/body/div[2]/div[2]/main/div/div[1]/div[4]/a/div/div/div/div[1]/div[1]")
@@ -35,7 +40,10 @@ public class S3BookingsPage {
 		return CancelledBook.getText();
 	}
 	public void setCancelledBook() {
-		CancelledBook.click();
+		JavascriptExecutor js2 = (JavascriptExecutor) driver;
+    	js2.executeScript("var evt = document.createEvent('MouseEvents');" + "evt.initMouseEvent"
+    				+ "('click',true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0,null);" 
+    			+ "arguments[0].dispatchEvent(evt);", CancelledBook);
 	}
 	
 	@FindBy(xpath="/html/body/div[2]/div[2]/main/div/div[1]/div[2]/a/div/div/div/div[1]/div[1]")

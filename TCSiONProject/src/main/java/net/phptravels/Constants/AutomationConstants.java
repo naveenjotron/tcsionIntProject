@@ -17,5 +17,5 @@ public class AutomationConstants {
 	
 	//Stage 4
 	public static final String supplierManageTourHeading ="Tours Management";
-	
+	public static final String SupplierBookingsTitle="All Bookings View";
 }

@@ -24,7 +24,7 @@ public class S1TestLogin extends TestBase {
 		driver.findElement(By.id("cookie_stop")).click();
 	}
 
-	@Test(priority=1, enabled=false)
+	@Test(priority=1, enabled=true)
 	public void invalidLoginTC001() throws IOException, InterruptedException {
 		 //Create Login Page object
 	    objlogin = new S1LoginPage(driver);
@@ -43,7 +43,7 @@ public class S1TestLogin extends TestBase {
 	   
 	}
 
-	@Test(priority=2,enabled=false)
+	@Test(priority=2,enabled=true)
 	public void invalidLoginTC002() throws IOException, InterruptedException {
 		 //Create Login Page object
 	    objlogin = new S1LoginPage(driver);
@@ -61,7 +61,7 @@ public class S1TestLogin extends TestBase {
 	    Assert.assertEquals(ActualTittle, expTittle);
 	}
 	
-	@Test(priority=3,enabled=false)
+	@Test(priority=3,enabled=true)
 	public void invalidLoginTC003() throws IOException, InterruptedException {
 		 //Create Login Page object
 	    objlogin = new S1LoginPage(driver);
@@ -97,7 +97,5 @@ public class S1TestLogin extends TestBase {
 	    Assert.assertEquals(ActualTittle, expTittle);
 	    System.out.println("***Login Successful***");
 	}
-//	public TestLogin(WebDriver driver) {
-//		this.driver=driver;
-//	}
+
 }

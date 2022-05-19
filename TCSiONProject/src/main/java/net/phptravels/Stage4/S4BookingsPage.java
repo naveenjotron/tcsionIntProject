@@ -52,7 +52,10 @@ public class S4BookingsPage {
 	@FindBy(css="a.loadeffect:nth-child(15)")
 	private WebElement BookingsBtn;
 	public void setBookingsBtn() {
-		BookingsBtn.click();
+		JavascriptExecutor js2 = (JavascriptExecutor) driver;
+    	js2.executeScript("var evt = document.createEvent('MouseEvents');" + "evt.initMouseEvent"
+    				+ "('click',true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0,null);" 
+    			+ "arguments[0].dispatchEvent(evt);", BookingsBtn);
 	}
 	
 	@FindBy(css="a.nav-link:nth-child(12) > div:nth-child(1) > i")
@@ -82,5 +85,10 @@ public class S4BookingsPage {
     			+ "arguments[0].dispatchEvent(evt);", ManageTours);
 	}
 	
+//	@FindBy(css="a.loadeffect:nth-child(15)")
+//	private WebElement bookingsBtn;
+//	public void setBookingsBtn() {
+//		bookingsBtn.click();
+//	}
 
 }

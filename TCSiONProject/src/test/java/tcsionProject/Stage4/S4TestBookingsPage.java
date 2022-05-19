@@ -23,7 +23,7 @@ public void dashboardTS002() {
 	System.out.println(overview);
 	
 	boolean chart=objBook.setRevenueBreakChart();
-	System.out.println(chart);
+	System.out.println("Chart Visible: "+ chart);
 	Assert.assertEquals(chart, true);
 }
 @Test(priority = 6)
@@ -36,8 +36,16 @@ public void FliVisaTourTS005() {
 	String headingText=heading.getText();
 	String expHeading=AutomationConstants.supplierManageTourHeading;
 	Assert.assertEquals(headingText, expHeading);
-    System.out.println("***Tours Page is visible***");
-    
-    
+    System.out.println("***Tours Page is visible***");   
+}
+@Test(priority = 7)
+public void BookingsTS004() throws InterruptedException {
+	objBook= new S4BookingsPage(driver);
+	objBook.setBookingsBtn();
+	Thread.sleep(2000);
+	String actTitle = driver.getTitle();
+	System.out.println(actTitle);
+	String expTitle = AutomationConstants.SupplierBookingsTitle;
+	Assert.assertEquals(actTitle, expTitle);
 }
 }
